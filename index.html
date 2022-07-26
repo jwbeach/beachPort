@@ -14,13 +14,14 @@
 
 <body>
   <header>
-    <h1>Portfolio</h1>
+    <h1 id="HOME">Portfolio</h1>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Projects</a></li>
+        <!-- TO DO:links to positions in page -->
+        <li><a href="#HOME">Home</a></li>
+        <li><a href="#ABOUTME">About Me</a></li>
+        <li><a href="#CONTACT">Contact</a></li>
+        <li><a href="#PROJECTS">Projects</a></li>
       </ul>
     </nav>
   </header>
@@ -33,7 +34,7 @@
         <div class="profilePicture">
         <img src="./assets/images/profile.jpg" alt="Outdoorsman Jacob Beach">
         </div>
-          <h2>About Me</h2>
+          <h2 id="ABOUTME">About Me</h2>
           <div class="v1">
             <p>A successful web developer is one that knows that there's always room to grow and learn. You may not use
               every single tool that's offered to you, but it's always good to know that certain tools exist. Check out
@@ -65,8 +66,20 @@
             corporis tempore ullam!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde
             non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!</p>
-        </div>
+          </div>
       </article>
+      <article>
+          <h2 id="Projects">Projects</h2>
+          <div class="v1">
+            <div class="projectFlex">
+              <div class="coverProject" style="height:500px;">1</div><br>
+              <div class="subProject" style="height:200px;">2</div><br>
+              <div class="subProject" style="height:200px;">3</div><br>
+              <div class="subProject" style="height:200px;">4</div><br>
+              <div class="subProject" style="height:200px;">5</div>
+            </div>  
+          </div>  
+      </article>   
     </section>
   </main>
   <footer>

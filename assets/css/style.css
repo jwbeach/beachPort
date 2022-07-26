@@ -14,14 +14,17 @@
 
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
     background-color: var(--bkColor);
     color: var(--white);
   }
 h1 {
-    font-size: 1000%;
+    font-size: 600%;
   }
 
 nav ul {
@@ -47,13 +50,73 @@ nav a:hover {
     font-family: 'Square Peg', cursive;
     background-color: var(--bkColor);
     font-size: 350%;
-    padding: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
 }
 
 .profilePicture img {
   border: 2px solid #E66312;
   border-radius: 4px;
-  padding: 5px;
-  width: 150px;
-  height: 150px;
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+  float: right;
+  margin: 25px;
+  }
+
+.v1 {
+  border-left: 6px solid green;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 200%;
+  padding-left: 30px;
+  color: var(--blueB);
+}
+
+.projectFlex {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.coverProject {
+  flex: 100%;
+  padding:4px;
+  height: 500px;
+  background-color: var(--blueB);
+  border: 2px solid #E66312;
+  padding: 10px;
+
+
+  /* display: flex;
+  justify-content: center;
+  background-color: var(--blueB);
+  width: 500px;
+  height: 500px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 30px;
+  border: 2px solid #E66312;
+  border-radius: 4px;
+  padding: 10px; */
+}
+
+.subProject {
+  flex: 50%;
+  padding:4px;
+  height: 220px;
+  background-color: var(--blueB);
+  border: 2px solid #E66312;
+  padding: 10px;
+  /* display: flex;
+  justify-content: center;
+  background-color: var(--blueB);
+  width: 220px;
+  height: 220px;
+  text-align: center;
+  font-size: 30px;
+  border: 2px solid #E66312;
+  padding: 10px; */
 }

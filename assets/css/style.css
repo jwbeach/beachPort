@@ -80,6 +80,7 @@ h2 {
   flex-wrap: wrap;
   box-sizing: border-box;
 }
+
 .coverProject {
   flex: 100%;
   padding:4px;
@@ -87,9 +88,7 @@ h2 {
   background-color: var(--blueB);
   border: 2px solid #E66312;
   padding: 10px;
-
-
-  /* display: flex;
+  display: flex;
   justify-content: center;
   background-color: var(--blueB);
   width: 500px;
@@ -100,17 +99,17 @@ h2 {
   font-size: 30px;
   border: 2px solid #E66312;
   border-radius: 4px;
-  padding: 10px; */
+  padding: 10px; 
 }
 
-.subProject {
+ .subProject {
   flex: 50%;
   padding:4px;
   height: 220px;
   background-color: var(--blueB);
   border: 2px solid #E66312;
   padding: 10px;
-  /* display: flex;
+  display: flex;
   justify-content: center;
   background-color: var(--blueB);
   width: 220px;
@@ -118,5 +117,8 @@ h2 {
   text-align: center;
   font-size: 30px;
   border: 2px solid #E66312;
-  padding: 10px; */
-}
+  padding: 10px; 
+  
+} 
+
+

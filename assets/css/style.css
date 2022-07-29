@@ -55,7 +55,7 @@ nav a:hover {
 }
 
 .profilePicture img {
-  border: 2px solid #E66312;
+  border: 10px solid #E66312;
   border-radius: 4px;
   padding: 10px;
   width: 300px;
@@ -75,50 +75,66 @@ h2 {
   color: var(--blueB);
 }
 
+h3 {
+
+}
+
+/* flex boxes for projects */
 .projectFlex {
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
 }
 
+/* cover (or feature) project */
 .coverProject {
   flex: 100%;
-  padding:4px;
-  height: 500px;
-  background-color: var(--blueB);
-  border: 2px solid #E66312;
-  padding: 10px;
   display: flex;
-  justify-content: center;
-  background-color: var(--blueB);
+  justify-content: left;
+  background-color: var(--bkColor);
   width: 500px;
-  height: 500px;
   margin-top: 25px;
   margin-bottom: 25px;
-  text-align: center;
   font-size: 30px;
-  border: 2px solid #E66312;
+  border: 10px solid #E66312;
   border-radius: 4px;
   padding: 10px; 
 }
 
- .subProject {
-  flex: 50%;
-  padding:4px;
-  height: 220px;
-  background-color: var(--blueB);
-  border: 2px solid #E66312;
+/* columns for subprojects (not primary) */
+.col-xl-2 {
   padding: 10px;
   display: flex;
-  justify-content: center;
-  background-color: var(--blueB);
-  width: 220px;
-  height: 220px;
-  text-align: center;
-  font-size: 30px;
-  border: 2px solid #E66312;
-  padding: 10px; 
-  
-} 
+  justify-content: left;
+  background-color: var(--bkColor);
+  border: 10px solid #E66312;
+  min-width: 40%;
+  margin: auto;
+  margin-bottom: 25px;
+}
 
+.card {
 
+}
+
+.card-body {
+
+}
+
+.card-title {
+color: #fff;
+}
+
+.card-text {
+color: var(--blueC);
+}
+
+/* Card Link */
+.card-body a {
+
+}
+
+/* Card Link on Hover */
+.card-body a:hover {
+color: var(--highlight)
+}

@@ -10,12 +10,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 
 <body>
   <header>
     <h1 id="HOME">Portfolio</h1>
     <nav>
+      <div class="signature">
+        Jacob Beach
+      </div>
       <ul>
         <!-- TO DO:links to positions in page -->
         <li><a href="#HOME">Home</a></li>
@@ -26,38 +31,23 @@
     </nav>
   </header>
   <main>
-    <div class="signature">
-      Jacob Beach
-    </div>
     <section>
       <article>
         <div class="profilePicture">
         <img src="./assets/images/profile.jpg" alt="Outdoorsman Jacob Beach">
         </div>
-          <h2 id="ABOUTME">About Me</h2>
+          <h2 id="ABOUTME">About Me</h2></div>
           <div class="v1">
-            <p>A successful web developer is one that knows that there's always room to grow and learn. You may not use
-              every single tool that's offered to you, but it's always good to know that certain tools exist. Check out
-              these resources to broaden your knowledge:</p>
-            <ul>
-              <li>
-                Mozilla Developer Network's documentation on <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/CSS">Cascading Style Sheets (CSS)</a> is a good
-                resource for all things CSS and web development in general.
+            <p>My name is Jacob Beach and I am currently enrolled in a Full Stack Coding Bootcamp in hopes of becoming a web developer. My educational background includes recieving a Bachelors Degree from Ohio Wesleyan Univeristy ('14) and a Masters of Science in Sport and Recreational Sciences from Ohio University (`19). After years of successfully leading athletes at the collegiate and club level I have veered into a web developing with the hopes of it being a career that is more self-fulfilling, empowering, creative, and rewarding.</p>
+            <ul>What will I bring to your team?
+              <li>A fresh outlook on web development, armed with the most recently knowledge and stratgies to help make your webpages more efficient, intergrated, and dynamic.
               </li>
-              <li>Our own <a href="./assets/css/reset.css">reset.css</a> file shows how to set default browser styles.
+              <li>A proven leader and team player that is able to work well and efficiently with others with an uncanny ability to delegate and lead others to a common interest/goal.
               </li>
-              <li>Another reset style sheet called
-                <a href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">normalize.css</a> is popular in the
-                web development community</li>
-              <li>Our own <a href="./assets/css/style.css">style.css</a> file shows how we've designed the page we're
-                reading!
+              <li>A problem solver who has handled a variety of jobs including running a year-round swim team with 100+ athletes and 3+ assistant coaches. Someone who can; coordinate multi-day highly-attended events, write season long training for individuals and groups, provide financal plans to pay for all team travel/rentals, effective at handling communication quickly, and much more.   
               </li>
-
-              <li>The popular blog, <a href="https://css-tricks.com/">CSS Tricks,</a> has a lot of articles and resources
-                to make you a better developer!
+              <li>A creative worker who finds the design and implimentation of their work to be satisfying, especially with respect to long-term projects and goals. 
               </li>
-
             </ul>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde
             non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore! Lorem
@@ -68,61 +58,75 @@
             non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!</p>
           </div>
       </article>
-      <!-- PROJECTS BELOW -->
       <article>
-          <h2 id="PROJECTS">Projects</h2>
-          <div class="v1">
-            <!-- Main Project, larger and more centered -->
-            <div class="projectFlex">
-              <div class="coverProject" style="height: 400px;">
-                <div class="card">
-                  <div class="card-body">
-                    <h3 class="card-title">TITLE HERE</h3>
-                    <p class="card-text">Description of Project here</p>
-                    <a href="#">Link to Project here.</a>
-                  </div>
-                </div>  
+        <h2 id="PROJECTS">Projects</h2>
+        <div class="v1">
+          <div class="container">
+            <div class="card mb-3">
+              <img class="card-img-top mx-auto" src="./assets/images/groupProject.jpg" id="mainProject" alt="Web API - Group Work">
+              <div class="card-body">
+                <h5 class="card-title">Web API - Group Work</h5>
+                <p class="card-text">Application developed in coordination with other developers. The application integrates several APIs and is powered by javascript. Users can search for natural disaster across the world by inputting two locations and having the app search between those two points for any active natural disasters that are considered active from NASAs database.</p>
+                <p class="card-text"><small class="text-muted">Javascript, CSS, HTML</small></p>
+                <a href="https://emileebogdan.github.io/project-1-travel-and-events/" class="btn btn-primary">Launch</a>
               </div>
-              <!-- sub projects below, smaller & not as featured -->
-              <div class="col-xl-2" style="height:200px;">
+            </div>
+            <div class="row row-cols-1 row-cols-md-2">
+              <div class="col mb-4">
                 <div class="card">
+                  <img src="./assets/images/PassGen.jpg" class="card-img-top" alt="Password Generator">
                   <div class="card-body">
-                    <h3 class="card-title">Project #2</h3>
-                    <p class="card-text">Description of Project here</p>
-                    <a href="#">Link to Project here.</a>
+                    <h5 class="card-title">Password Generator</h5>
+                    <p class="card-text">Application that an employee could use to generate a random password based on criteria they've selected. App features dynamic CSS and HTML and is powered by Javascript. Interface is responsive and works across all browsers and devices.</p>
+                    <p class="card-text"><small class="text-muted">Web APIs, CSS, HTML, Javascript</small></p>
+                    <a href="#" class="btn btn-primary">Launch</a>
                   </div>
-                </div>  
+                </div>
               </div>
-              <div class="col-xl-2" style="height:200px;">
+              <div class="col mb-4">
                 <div class="card">
+                  <img src="./assets/images/CodeQuiz.jpg" class="card-img-top" alt="Code Quiz">
                   <div class="card-body">
-                    <h3 class="card-title">Project #3</h3>
-                    <p class="card-text">Description of Project here</p>
-                    <a href="#">Link to Project here.</a>
+                    <h5 class="card-title">Code Quiz</h5>
+                    <p class="card-text">A timed quiz application built to help developers prepare for interview questions. Useful for studying but also to showcase a clean, dynamic application that is powered by Javascript. The multi-choice quiz will test your developer knowdledge!</p>
+                    <p class="card-text"><small class="text-muted">CSS, HTML, Javascript</small></p>
+                    <a href="#" class="btn btn-primary">Launch</a>
                   </div>
-                </div>  
+                </div>
               </div>
-              <div class="col-xl-2" style="height:200px;">
+              <div class="col mb-4">
                 <div class="card">
+                  <img src="./assets/images/workSchedule.jpg" class="card-img-top" alt="Work Scheduler">
                   <div class="card-body">
-                    <h3 class="card-title">Project #4</h3>
-                    <p class="card-text">Description of Project here</p>
-                    <a href="#">Link to Project here.</a>
+                    <h5 class="card-title">Work Scheduler</h5>
+                    <p class="card-text">A simple calendar application using a third-party API to help the user save events for each hour of the day. This app runs in the browser and features dynamic HTML and CSS and is powered by jQuery.</p>
+                    <p class="card-text"><small class="text-muted">Web APIs, CSS, HTML, Javascript, jQuery</small></p>
+                    <a href="#" class="btn btn-primary">Launch</a>
                   </div>
-                </div>  
+                </div>
               </div>
-              <div class="col-xl-2" style="height:200px;">
+              <div class="col mb-4">
                 <div class="card">
+                  <img src="./assets/images/weather.jpg" class="card-img-top" alt="Weather Dashboard">
                   <div class="card-body">
-                    <h3 class="card-title">Project #5</h3>
-                    <p class="card-text">Description of Project here</p>
-                    <a href="#">Link to Project here.</a>
+                    <h5 class="card-title">Weather Dashboard</h5>
+                    <p class="card-text">Weather Dashboard application that requests specific with parameters to a server-side API. The app retrieves the weather data for specified cities and displays it in an easy to read way.</p>
+                    <p class="card-text"><small class="text-muted">Web APIs, CSS, HTML, Javascript</small></p>
+                    <a href="#" class="btn btn-primary">Launch</a>
                   </div>
-                </div>  
+                </div>
               </div>
-            </div>  
-          </div>  
-      </article>   
+            </div>
+          </div>
+        </div>
+      </article>
+      <article>
+        <h2 id="CONTACT">Contact</h2>
+        <div class="v1">
+        <div class="container">
+        </div>
+        </div>
+      </article>
     </section>
   </main>
   <footer>

@@ -5,24 +5,28 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio - Web Developer Jacob Beach</title>
-  <!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
+  <!-- Linking to stylesheet -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Linking different font styles -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+  <!-- Linking Bootstrap to Page -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
 </head>
 
 <body>
   <header>
+
+    <!-- HEADER -->
     <h1 id="HOME">Portfolio</h1>
+
+    <!-- NAVBAR SECTION  -->
     <nav>
       <div class="signature">
         Jacob Beach
       </div>
       <ul>
-        <!-- TO DO:links to positions in page -->
         <li><a href="#HOME">Home</a></li>
         <li><a href="#ABOUTME">About Me</a></li>
         <li><a href="#CONTACT">Contact</a></li>
@@ -30,9 +34,12 @@
       </ul>
     </nav>
   </header>
+
   <main>
     <section>
+      <!-- PROFILE SECTION -->
       <article>
+        <!-- PROFILE PICTURE -->
         <div class="profilePicture">
         <img src="./assets/images/profile.jpg" alt="Outdoorsman Jacob Beach">
         </div>
@@ -49,15 +56,9 @@
               <li>A creative worker who finds the design and implimentation of their work to be satisfying, especially with respect to long-term projects and goals. 
               </li>
             </ul>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde
-            non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore! Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nisi, saepe quas sint consequuntur esse
-            voluptatum, dolores dolor aspernatur neque laborum dolorum dolorem repudiandae. Dignissimos eveniet sequi
-            corporis tempore ullam!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde
-            non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!</p>
           </div>
       </article>
+      <!-- PROJECT SECTION  -->
       <article>
         <h2 id="PROJECTS">Projects</h2>
         <div class="v1">
@@ -65,8 +66,8 @@
             <div class="card mb-3">
               <img class="card-img-top mx-auto" src="./assets/images/groupProject.jpg" id="mainProject" alt="Web API - Group Work">
               <div class="card-body">
-                <h5 class="card-title">Web API - Group Work</h5>
-                <p class="card-text">Application developed in coordination with other developers. The application integrates several APIs and is powered by javascript. Users can search for natural disaster across the world by inputting two locations and having the app search between those two points for any active natural disasters that are considered active from NASAs database.</p>
+                <h5 class="card-title">Natural Disaster Search Application</h5>
+                <p class="card-text">Application developed in a group setting involving coordinating and sharing ideas with other developers. The application integrates several APIs and is powered by javascript. Users can search for natural disaster across the world by inputting two locations and having the app search between those two points for any active natural disasters that are considered active from NASAs database.</p>
                 <p class="card-text"><small class="text-muted">Javascript, CSS, HTML</small></p>
                 <a href="https://emileebogdan.github.io/project-1-travel-and-events/" class="btn btn-primary">Launch</a>
               </div>
@@ -79,7 +80,7 @@
                     <h5 class="card-title">Password Generator</h5>
                     <p class="card-text">Application that an employee could use to generate a random password based on criteria they've selected. App features dynamic CSS and HTML and is powered by Javascript. Interface is responsive and works across all browsers and devices.</p>
                     <p class="card-text"><small class="text-muted">Web APIs, CSS, HTML, Javascript</small></p>
-                    <a href="#" class="btn btn-primary">Launch</a>
+                    <button onclick="f404()" class="btn btn-primary">Launch</a>
                   </div>
                 </div>
               </div>
@@ -90,7 +91,7 @@
                     <h5 class="card-title">Code Quiz</h5>
                     <p class="card-text">A timed quiz application built to help developers prepare for interview questions. Useful for studying but also to showcase a clean, dynamic application that is powered by Javascript. The multi-choice quiz will test your developer knowdledge!</p>
                     <p class="card-text"><small class="text-muted">CSS, HTML, Javascript</small></p>
-                    <a href="#" class="btn btn-primary">Launch</a>
+                    <button onclick="f404()" class="btn btn-primary">Launch</a>
                   </div>
                 </div>
               </div>
@@ -101,7 +102,7 @@
                     <h5 class="card-title">Work Scheduler</h5>
                     <p class="card-text">A simple calendar application using a third-party API to help the user save events for each hour of the day. This app runs in the browser and features dynamic HTML and CSS and is powered by jQuery.</p>
                     <p class="card-text"><small class="text-muted">Web APIs, CSS, HTML, Javascript, jQuery</small></p>
-                    <a href="#" class="btn btn-primary">Launch</a>
+                    <button onclick="f404()" class="btn btn-primary">Launch</a>
                   </div>
                 </div>
               </div>
@@ -112,7 +113,7 @@
                     <h5 class="card-title">Weather Dashboard</h5>
                     <p class="card-text">Weather Dashboard application that requests specific with parameters to a server-side API. The app retrieves the weather data for specified cities and displays it in an easy to read way.</p>
                     <p class="card-text"><small class="text-muted">Web APIs, CSS, HTML, Javascript</small></p>
-                    <a href="#" class="btn btn-primary">Launch</a>
+                    <button onclick="f404()" class="btn btn-primary">Launch</a>
                   </div>
                 </div>
               </div>
@@ -120,18 +121,47 @@
           </div>
         </div>
       </article>
+<!-- CONTACT SECTION -->
       <article>
         <h2 id="CONTACT">Contact</h2>
         <div class="v1">
         <div class="container">
+          <div class="card text-center align-items-center text-nowrap">
+              <div class="col-md-3" id="contactCard">
+                <ul>                  
+                    <p><u>Phone:</u></p>
+                    <p>419-310-8605</p>
+                </ul>
+                <ul>                  
+                  <p><u>Email:</u></p>
+                  <p><a href="mailto:jacobwbeach@gmail.com?subject=Job Opportunity">jacobwbeach@gmail.com</a></p>
+                </ul>
+                <ul>                  
+                  <p><u>LinkedIn:</u></p>
+                  <p>Coming Soon</p>
+                </ul>
+                <ul>                  
+                  <p><u>Githib:</u></p>
+                  <p><a href="https://github.com/jwbeach/">@jwbeach</a></p>
+                </ul>
+              </div>
+            </div>
         </div>
         </div>
       </article>
+
     </section>
   </main>
   <footer>
     <span>Thanks for visiting!</span>
   </footer>
-</body>
+<!-- script for pages that are incomplete -->
+  <script>
+    function f404() {
+      alert("Page Under Construction");
+    }
+  </script>
+    
 
+</body>
 </html>

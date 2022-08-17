@@ -12,6 +12,7 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  /* Main header */
 header {
     display: flex;
     flex-wrap: wrap;
@@ -26,14 +27,12 @@ header {
     border-radius: 4px;
     min-width: 575px;
   }
+
 h1 {
     text-shadow: 2px 2px var(--blueC);
   }
 
-nav {
-
-}
-
+/* nav link list */
 nav ul {
     display: flex;
     justify-content: space-evenly;
@@ -43,19 +42,23 @@ nav ul {
 
   }
   
+  /* flex container to hold project cards */
 .container {
     display: flex;
     flex-direction: column;
   }
 
+  /* Nav links color  */
 nav a {
     color: white;
   }
   
+  /* Nav Links on Hover */
 nav a:hover {
     color: var(--highlight);
   }
 
+/* Calligraphy in the header */
 .signature {
     color: var(--blueA);
     justify-content: right;
@@ -68,6 +71,8 @@ nav a:hover {
     text-shadow: 2px 2px var(--blueC);
 }
 
+/* profile picture on right side */
+
 .profilePicture img {
   border: 10px solid #E66312;
   border-radius: 4px;
@@ -79,6 +84,7 @@ nav a:hover {
   min-width: 325px;
   }
 
+  /* Vertical orange line on left side of page  */
 .v1 {
   border-left: 6px solid var(--highlight);
   padding: 10px;
@@ -94,30 +100,12 @@ h2 {
   
 }
 
-h3 {
-
-}
-
-.col {
-
-}
-
-.card {
-
-}
-
-.card-body {
-
-}
-
+/* Top image in project cards  */
 .card-img-top {
   height: 180px;
 }
 
-.btn {
-
-}
-
+/* CSS to make main project larger than rest but not crazy large */
 #mainProject {
 height: 300px;
 max-width: 500px;

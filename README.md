@@ -5,4 +5,4 @@ This is a site to outwardly display my projects, applications, and coding to pot
 Navigate through the website by scrolling or using the nav bar to visit sections to view and read their respective information. 
 # Credits:
 Jacob Beach https://github.com/jwbeach/
-![](assets/images/appScreenshot.jpg)
+[![](assets/images/appScreenshot.jpg)]

@@ -1,5 +1,5 @@
 :root {
-  /* Master Color Theme - change color theme here */
+  /* Master Color and Font */
     --white: #fff;
     --blueA: #56A6A6;
     --blueB: #356666;
@@ -42,18 +42,18 @@ nav ul {
 
   }
   
-  /* flex container to hold project cards */
+/* flex container to hold project cards */
 .container {
     display: flex;
     flex-direction: column;
   }
 
-  /* Nav links color  */
+/* Nav links color  */
 nav a {
     color: white;
   }
   
-  /* Nav Links on Hover */
+/* Nav Links on mouse hover */
 nav a:hover {
     color: var(--highlight);
   }
@@ -72,7 +72,6 @@ nav a:hover {
 }
 
 /* profile picture on right side */
-
 .profilePicture img {
   border: 10px solid #E66312;
   border-radius: 4px;
@@ -84,7 +83,7 @@ nav a:hover {
   min-width: 325px;
   }
 
-  /* Vertical orange line on left side of page  */
+/* Vertical orange line on left side of page  */
 .v1 {
   border-left: 6px solid var(--highlight);
   padding: 10px;
